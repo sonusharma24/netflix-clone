@@ -1,0 +1,28 @@
+.nav{
+   position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+    display: flex;
+justify-content: space-between;
+    padding: 1rem;
+    height: 60px;
+    transition-timing-function: ease-in;
+    transition: all 0.5s;
+
+}
+
+.nav-black{
+    background-color: black;
+}
+
+.nav-logo{
+    height: 2rem;
+    cursor: pointer;
+
+}
+
+.nav-profile{
+ height: 2rem;
+ cursor: pointer;
+}
